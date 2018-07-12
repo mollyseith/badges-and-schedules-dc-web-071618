@@ -14,8 +14,8 @@ def assign_rooms(array)
   both = []
   rooms = 1
   array.each do |name|
-    both.push("Hello, #{name}! You'll be assigned to room #{counter}!")
-    counter += 1
+    both.push("Hello, #{name}! You'll be assigned to room #{rooms}!")
+    rooms += 1
   end
   return both
 end
